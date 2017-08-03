@@ -118,6 +118,7 @@ So what's difference compared to just running `docker run` ?
 	`curl http://<YOUR_ELB_NAME>/docker-scripts/bdocker.sh | sh -s ecr`
 
 	You can update the scripts in container and all scripts/developers using above line will get updated script.
+	
 * How to build this image?
 	
 	Of course use bdocker.sh to build docker image.
