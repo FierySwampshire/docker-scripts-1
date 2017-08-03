@@ -17,7 +17,7 @@ This script is used to run `docker build`.
 	<path-to-docker-scripts>/bdocker.sh 
 	```
 	
-* Build to push to ECR
+* Build docker to push to ECR
 	
 	```
 	cd my-app
