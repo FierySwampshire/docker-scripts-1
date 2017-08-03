@@ -75,7 +75,8 @@ cd foo
 * When built image is used as intermediate docker image in multi-stage builds, labels are not copied over to new image. Hence, it is recommended to add in `Dockerfile` to copy `image-info-env.sh` to directory which will be copied by derived images.
 
 ## rdocker.sh
-This script is used to run `docker run`. 
+
+This script is used to run `docker run`
 
 ### Usage
 
