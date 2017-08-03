@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# declare full list of environment variable names you would like to add if value exist for these environment variables. 
+declare -a env_vars=( "AWS_REGION" "AWS_ACCESS_KEY_ID" "AWS_SECRET_ACCESS_KEY" "APP_ENV" "LOG_LEVEL")

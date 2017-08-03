@@ -1,0 +1,7 @@
+#!/bin/bash
+# declare full list of labels you would like to add if value exist for these environment variables. 
+declare -a labels=("GIT_BRANCH" "GIT_COMMIT" "BUILD_HOST" "BUILD_TIMESTAMP" "MY_LABEL_1")
+
+if [ "$ECR_REGISTRY" == "" ]; then
+    export ECR_REGISTRY=1234.dkr.ecr.us-west-2.amazonaws.com
+fi
